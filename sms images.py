@@ -1,5 +1,3 @@
-#eswarkada
-
 import urllib.request
 import requests
 id1 = input("enter the id: ")
@@ -7,7 +5,7 @@ id2 = input("enter last id: ")
 
 r= requests.session()
 
-#N169999.jpg"
+
 
 for i in range(int(id1),int(id2)):
     image = "N"+str(i)+".jpg"
